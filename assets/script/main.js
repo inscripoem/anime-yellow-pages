@@ -1,6 +1,6 @@
 (function() {
   document.addEventListener('DOMContentLoaded', () => {
-    fetch('/assets/database/db.json')
+    fetch('/anime-yellow-pages/assets/database/db.json')
       .then(data => data.json())
       .then(render);
   });
